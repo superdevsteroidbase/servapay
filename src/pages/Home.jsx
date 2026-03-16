@@ -277,31 +277,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Integrations Section */}
-      <section className="section-padding-sm" style={{ textAlign: 'center' }}>
-        <div className="container">
-          <h2 style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>Works with your favorite tools</h2>
-          <div className="integration-grid flex-gap-md mt-lg" style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', alignItems: 'center' }}>
-            <img src={shopifyLogo} alt="Shopify" style={{ height: '48px', opacity: 0.7, transition: 'opacity 0.3s ease', cursor: 'pointer', filter: 'grayscale(100%)' }} onMouseOver={(e) => { e.currentTarget.style.opacity = 1; e.currentTarget.style.filter = 'none'; }} onMouseOut={(e) => { e.currentTarget.style.opacity = 0.7; e.currentTarget.style.filter = 'grayscale(100%)'; }} />
-            <SiWoocommerce size={48} style={{ color: '#96588a', opacity: 0.7, transition: 'opacity 0.3s ease, filter 0.3s ease', cursor: 'pointer', filter: 'grayscale(100%)' }} onMouseOver={(e) => { e.currentTarget.style.opacity = 1; e.currentTarget.style.filter = 'none'; }} onMouseOut={(e) => { e.currentTarget.style.opacity = 0.7; e.currentTarget.style.filter = 'grayscale(100%)'; }} />
-            <img src={wixLogo} alt="Wix" style={{ height: '48px', opacity: 0.7, transition: 'opacity 0.3s ease', cursor: 'pointer', filter: 'grayscale(100%)' }} onMouseOver={(e) => { e.currentTarget.style.opacity = 1; e.currentTarget.style.filter = 'none'; }} onMouseOut={(e) => { e.currentTarget.style.opacity = 0.7; e.currentTarget.style.filter = 'grayscale(100%)'; }} />
-            <FaMagento size={48} style={{ color: '#ee672f', opacity: 0.7, transition: 'opacity 0.3s ease, filter 0.3s ease', cursor: 'pointer', filter: 'grayscale(100%)' }} onMouseOver={(e) => { e.currentTarget.style.opacity = 1; e.currentTarget.style.filter = 'none'; }} onMouseOut={(e) => { e.currentTarget.style.opacity = 0.7; e.currentTarget.style.filter = 'grayscale(100%)'; }} />
-          </div>
-          
-          <div className="mt-lg">
-            <h3 style={{ marginBottom: '1.5rem' }}>Coming soon to your pocket</h3>
-            <div className="app-badge-group" style={{ display: 'flex', justifyContent: 'center', gap: '1.5rem', flexWrap: 'wrap' }}>
-              <a href="#" style={{ transition: 'transform 0.2s', display: 'inline-block' }} onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.05)'} onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}>
-                <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" style={{ height: '48px', display: 'block' }} />
-              </a>
-              <a href="#" style={{ transition: 'transform 0.2s', display: 'inline-block' }} onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.05)'} onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}>
-                <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" style={{ height: '48px', display: 'block' }} />
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Core Values Section */}
       <section className="section-padding" style={{ background: 'var(--slate-50)', position: 'relative', overflow: 'hidden' }}>
         {/* Subtle grid background */}
@@ -363,6 +338,31 @@ const Home = () => {
                   <p style={{ color: 'var(--secondary)', fontSize: '1.05rem', lineHeight: '1.6' }}>ServaPay is built to perform consistently, providing dependable payment services users can trust anytime they need to move money.</p>
                 </div>
               </motion.div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Integrations Section */}
+      <section className="section-padding-sm" style={{ textAlign: 'center' }}>
+        <div className="container">
+          <h2 style={{ fontSize: '2.5rem', marginBottom: '1rem' }}>Works with your favorite tools</h2>
+          <div className="integration-grid flex-gap-md mt-lg" style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', alignItems: 'center' }}>
+            <img src={shopifyLogo} alt="Shopify" style={{ height: '48px', opacity: 0.7, transition: 'opacity 0.3s ease', cursor: 'pointer', filter: 'grayscale(100%)' }} onMouseOver={(e) => { e.currentTarget.style.opacity = 1; e.currentTarget.style.filter = 'none'; }} onMouseOut={(e) => { e.currentTarget.style.opacity = 0.7; e.currentTarget.style.filter = 'grayscale(100%)'; }} />
+            <SiWoocommerce size={48} style={{ color: '#96588a', opacity: 0.7, transition: 'opacity 0.3s ease, filter 0.3s ease', cursor: 'pointer', filter: 'grayscale(100%)' }} onMouseOver={(e) => { e.currentTarget.style.opacity = 1; e.currentTarget.style.filter = 'none'; }} onMouseOut={(e) => { e.currentTarget.style.opacity = 0.7; e.currentTarget.style.filter = 'grayscale(100%)'; }} />
+            <img src={wixLogo} alt="Wix" style={{ height: '48px', opacity: 0.7, transition: 'opacity 0.3s ease', cursor: 'pointer', filter: 'grayscale(100%)' }} onMouseOver={(e) => { e.currentTarget.style.opacity = 1; e.currentTarget.style.filter = 'none'; }} onMouseOut={(e) => { e.currentTarget.style.opacity = 0.7; e.currentTarget.style.filter = 'grayscale(100%)'; }} />
+            <FaMagento size={48} style={{ color: '#ee672f', opacity: 0.7, transition: 'opacity 0.3s ease, filter 0.3s ease', cursor: 'pointer', filter: 'grayscale(100%)' }} onMouseOver={(e) => { e.currentTarget.style.opacity = 1; e.currentTarget.style.filter = 'none'; }} onMouseOut={(e) => { e.currentTarget.style.opacity = 0.7; e.currentTarget.style.filter = 'grayscale(100%)'; }} />
+          </div>
+          
+          <div className="mt-lg">
+            <h3 style={{ marginBottom: '1.5rem' }}>Coming soon to your pocket</h3>
+            <div className="app-badge-group" style={{ display: 'flex', justifyContent: 'center', gap: '1.5rem', flexWrap: 'wrap' }}>
+              <a href="#" style={{ transition: 'transform 0.2s', display: 'inline-block' }} onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.05)'} onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}>
+                <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" style={{ height: '48px', display: 'block' }} />
+              </a>
+              <a href="#" style={{ transition: 'transform 0.2s', display: 'inline-block' }} onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.05)'} onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Get it on Google Play" style={{ height: '48px', display: 'block' }} />
+              </a>
             </div>
           </div>
         </div>
